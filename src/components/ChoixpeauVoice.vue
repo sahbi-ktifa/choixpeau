@@ -6,7 +6,7 @@
         sound: string,
     }>()
 
-    const soundSource = computed(() => props.sound + '.mp3')
+    const soundSource = computed(() => props.sound)
 
 </script>
 
